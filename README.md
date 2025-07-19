@@ -1,12 +1,15 @@
 
 ## 📑 Table of Contents
+Home page
 <img width="1919" height="824" alt="Screenshot 2025-07-19 202358" src="https://github.com/user-attachments/assets/9b8cf9b1-0b68-40f4-935a-603cf77f8a83" />
-<img width="1919" height="864" alt="Screenshot 2025-07-19 202924" src="https://github.com/user-attachments/assets/69ed6642-05b0-46ff-8596-b55be903c6b4" />
-<img width="1916" height="673" alt="Screenshot 2025-07-19 203300" src="https://github.com/user-attachments/assets/f7ca6ee9-98f1-4bcb-b5cb-013a7c681364" />
-
+Admin Dashboard
+<img width="1914" height="703" alt="Screenshot 2025-07-19 202656" src="https://github.com/user-attachments/assets/564390bc-aeef-4fe8-b2ff-a502c7a4168e" />
 <img width="1890" height="814" alt="Screenshot 2025-07-19 202829" src="https://github.com/user-attachments/assets/224c7c78-89cc-4fd1-958d-f7332178e3c8" />
 <img width="1891" height="680" alt="Screenshot 2025-07-19 202804" src="https://github.com/user-attachments/assets/0f2c518b-9cc5-40b0-b9a9-5b548dc60cb8" />
-<img width="1914" height="703" alt="Screenshot 2025-07-19 202656" src="https://github.com/user-attachments/assets/564390bc-aeef-4fe8-b2ff-a502c7a4168e" />
+Student Dashboard
+<img width="1919" height="864" alt="Screenshot 2025-07-19 202924" src="https://github.com/user-attachments/assets/69ed6642-05b0-46ff-8596-b55be903c6b4" />
+Technician Dashboard
+<img width="1916" height="673" alt="Screenshot 2025-07-19 203300" src="https://github.com/user-attachments/assets/f7ca6ee9-98f1-4bcb-b5cb-013a7c681364" />
 
 - [Description](#description)
 - [Technologies](#technologies)
