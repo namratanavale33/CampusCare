@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>CampusCare – Entry Portal</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.0/css/bootstrap.min.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+               margin: 0;
+               min-height: 100vh;
+                     background:
+                         linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+                         url('/images/homepage.jpg') no-repeat center center fixed;
+                     background-size: cover;
+                     background-attachment: fixed;
+                     font-family: 'Segoe UI', sans-serif;
+                     display: flex;
+                     flex-direction: column;
+                 }
+
+
+
+                 .hero {
+                     position: relative;
+                     padding: 80px 20px 40px;
+                     text-align: center;
+                 }
+
+                 .hero h1 {
+                     font-size: 3rem;
+                     font-weight: 700;
+                     color: #2c3e50;
+                 }
+
+                 .hero p {
+                     color: #6c757d;
+                     max-width: 600px;
+                     margin: 20px auto 50px;
+                 }
+                 .card-glass {
+                background: #ffffff; /* solid white background */
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border-radius: 20px;
+                padding: 30px;
+                transition: transform 0.3s ease;
+                }
+
+
+                 .card-glass:hover {
+                     transform: translateY(-5px);
+                 }
+
+                 .role-btn {
+                     width: 100%;
+                     margin: 10px 0;
+                     padding: 12px 18px;
+                     border-radius: 12px;
+                     font-weight: 500;
+                     font-size: 1rem;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     gap: 10px;
+                 }
+
+                 .role-btn i {
+                     font-size: 1.2rem;
+                 }
+
+                 .custom-container {
+                     display: grid;
+                     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                     gap: 30px;
+                     max-width: 1000px;
+                     margin: auto;
+                     padding: 20px;
+                 }
+
+                 .brand-highlight {
+                     color: #4c8ef7;
+                 }
+
+                 @media (max-width: 576px) {
+                     .hero h1 {
+                         font-size: 2.2rem;
+                     }
+                 }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Welcome to <span class="brand-highlight">CampusCare</span></h1>
+    <p>Choose how you want to get started. Whether you're an admin, a user, or a technician — we've got you covered.</p>
+</div>
+
+<!-- Cards Section -->
+<div class="container custom-container">
+
+    <!-- Login Card -->
+    <div class="card-glass text-center">
+        <h4 class="mb-3 fw-bold">Login Options</h4>
+        <a href="/user/login" class="btn btn-outline-primary role-btn">
+            <i class="bi bi-person-circle"></i> User Login
+        </a>
+        <a href="/admin/login" class="btn btn-outline-dark role-btn">
+            <i class="bi bi-shield-lock-fill"></i> Admin Login
+        </a>
+        <a href="/technician/login" class="btn btn-outline-warning text-dark role-btn">
+            <i class="bi bi-tools"></i> Technician Login
+        </a>
+    </div>
+
+    <!-- Register Card -->
+    <div class="card-glass text-center">
+        <h4 class="mb-3 fw-bold">New User?</h4>
+        <p class="text-muted">Create your account and start raising complaints instantly.</p>
+        <a href="/user/register" class="btn btn-outline-success role-btn">
+            <i class="bi bi-person-plus-fill"></i> Register Now
+        </a>
+    </div>
+</div>
+
+<script th:src="@{/webjars/bootstrap/5.3.0/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
